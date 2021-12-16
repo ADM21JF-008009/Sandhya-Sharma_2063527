@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href = "/bootstrap/css/bootstrap.min.css" rel = "stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+   a:hover { COLOR: red; TEXT-DECORATION: none; font-weight: none }
+   
+   </style>
+    </head>
+    <body>
+        <div class="container-fluid ">
+            <nav class="navbar navbar-expand-sm  bg-dark navbar-dark">
+                <div class="navbar-header">
+                     
+                        <h3 style="color:white;">hTrack</h3>
+                </div>
+                <button class ="navbar-toggler ml-auto" type ="button" data-toggle ="collapse" data-target ="#colNav">
+                        <span class ="navbar-toggler-icon"></span>
+                </button>
+               <div class ="collapse navbar-collapse" id ="colNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                             <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Goals</a>
+                        </li>
+                  
+                    </ul>
+                </div>             
+
+             </nav>
+             </div>
+             <div class="container-fluid">
+               <h3>Products</h3>
+                <div class="card-deck">
+                  <div class="card">
+                    <img class="card-img-top " src="deanna.jpg" alt="image" />
+                    <div class="card-body">
+                            <h5 class="card-title">Coco Oil (200g)
+                        <span class="badge badge-success justify-content-center" style="color: white;"> 4.4
+                                <i class="material-icons " style="font-size: 15px;" >star</i>
+                        </span></h5>
+                        <h5 class="card-title">Rs.200.00 <small><del>Rs.250.00</del></small> 20% <i class="material-icons" style="font-size: 15px;color: brown;">new_releases</i></h5>
+                        <p class="card-text">Escape is an innovative, skin-loving formulation, formulated with certified Fair Trade Cold Pressed Organic Coconut Oil, produced sustainably in the Pacific Islands and supporting local communitites.
+                         </p>
+                         
+                        <button class="btn btn-success" ><i class="material-icons " style="font-size: 12px;">shopping_cart</i>Add to Cart</button>
+                    
+                        <a href="#"><i class="material-icons ml-lg-5">favorite_border</i></a>
+                  
+                  </div>
+                </div>
+              
+                
+                <div class="card">
+                  <img class="card-img-top" src="mad.jpg" alt="image" />
+                  <div class="card-body">
+                          <h5 class="card-title">Mad About Waves (300ml)
+                      <span class="badge badge-warning justify-content-center" style="color:black;"> 3.5
+                              <i class="material-icons " style="font-size: 15px;" >grade</i>
+                      </span></h5>
+                      <h5 class="card-title">Rs.150.00 <small><del>Rs.200.00</del></small> 25% <i class="material-icons" style="font-size: 15px;color: brown;">new_releases</i></h5>
+                      <p class="card-text">Mad About Waves is the holistic care and styling regime dedicated to beautifying every wave types.The range is designed to tame,respect and protect the hair-embracing each uniique pattern, for breezy waves that last.
+                       </p>                       
+                      <button class="btn btn-success" ><i class="material-icons " style="font-size: 12px;">shopping_cart</i>Add to Cart</button>
+                  
+                      <a href="#"><i class="material-icons ml-lg-5">favorite_border</i></a>
+                
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top " src="maui.jpg" alt="image" />
+                <div class="card-body">
+                        <h5 class="card-title">Maui Moisture (Bamboo fibers Shampoo 305ml)
+                    <span class="badge badge-warning justify-content-center" style="color:black;"> 3.1
+                            <i class="material-icons " style="color: black;font-size: 15px;" >star</i>
+                    </span></h5>
+                    <h5 class="card-title">Rs.455.00</h5>
+                    <p class="card-text">Lightweight spray conditioner suitable as a
+                      leavr-in for wavy hair types. With Aquarine
+                      Complex, the formula detangles, hydrates and
+                      gives lasting definition, creating a soft,beach-
+                      wave look, Strengthens the hair " and provides
+                      heat protection up to 80&degC";
+                     </p>
+                     
+                    <button class="btn btn-success" ><i class="material-icons " style="font-size: 12px;">shopping_cart</i>Add to Cart</button>
+                
+                    <a href="#"><i class="material-icons ml-lg-5">favorite_border</i></a>
+              
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top " src="battlecreek.jpg" alt="image" />
+              <div class="card-body">
+                      <h5 class="card-title">Battlecreek Coffee (200g)
+                  <span class="badge badge-danger justify-content-center" style="color: white;"> 2.5
+                          <i class="material-icons " style="font-size: 15px;" >star</i>
+                  </span></h5>
+                  <h5 class="card-title">Rs.150.00 <small><del>Rs.300.00</del></small> 50% <i class="material-icons" style="font-size: 15px;color: brown;">new_releases</i></h5>
+                  <p class="card-text">Escape is an innovative, skin-loving
+                      formulation, formulated with certified Fair 
+                      Trade Cold Pressed Organic Coconut Oil,
+                      produced sustainably in the Pacific Islands and
+                      supporting local communitites.
+                   </p>
+                   
+                  <button class="btn btn-success" ><i class="material-icons " style="font-size: 12px;">shopping_cart</i>Add to Cart</button>
+              
+                  <a href="#"><i class="material-icons ml-lg-5">favorite_border</i></a>
+            
+            </div>
+          </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-3 card-column">
+             <div class="card">
+              <img class="card-img-top " src="lapis.jpg" alt="image" />
+            <div class="card-body">
+                    <h5 class="card-title">Lapis Facial Oil (100ml)
+                <span class="badge badge-success justify-content-center" style="color: white;"> 4.8
+                        <i class="material-icons " style="font-size: 15px;" >grade</i>
+                </span></h5>
+                <h5 class="card-title">Rs.750.00 <small><del>Rs.1000.00</del></small> 25%</small><i class="material-icons" style="font-size: 15px;color: brown;">new_releases</i></h5>
+                <p class="card-text">Lapis Facial Oil holds a component called
+                  Azulene which aids in soothing dry imitated
+                  skin,reducing the appearance of redness and 
+                  balancing skin. Formulated for combination,
+                  oily, and blemish-prone skin types or any skin
+                  in need of balancing hydration.
+                 </p>
+                 
+                <button class="btn btn-success" ><i class="material-icons " style="font-size: 12px;">shopping_cart</i>Add to Cart</button>
+            
+                <a href="#"><i class="material-icons ml-lg-5">favorite_border</i></a>
+          
+          </div>
+        </div>
+        </div>
+        </div>
+        </div><br>
+        <div class="footer container-fluid bg-secondary bg-light">
+          <p>CopyRight 2021</p>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+
+</html>
